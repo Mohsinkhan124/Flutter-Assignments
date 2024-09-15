@@ -1,38 +1,30 @@
+// int maxAttemps = 3;
+// int attemps = 0;
+//while(attemps<maxAttemps){
+
+// }
+// do {
+// print('Enter your email:');
+// var email = stdin.readLineSync();
+
+//print('Enter your password:');
+// v//ar pass = stdin.readLineSync();
+
+//if () {
+// print('Login successful');
+//} else {
+// print('Login not successful');
+// }/}//
+//
 void main() {
-  // Map<String, dynamic> car = {
-  // "brand": "Toyota",
-  ////  "color": "Red",
-  //   "isSedan": true
-  // };
-  // if (car["isSedan"] == true && car["color"] == "red" ) {
-  //print("Match");
-  // }
-  // else {
-  //  print("No Match");
-  // }
-
-  //Map<String, dynamic> user = {
-  //'name': 'mohsin khan',
-  //'isAdmin': true,
-  // 'isActive': true
-  // };
-
-  // if (user['isAdmin'] == true && user['isActive'] == true) {
-  //  print('Active admin');
-  // } else {
-  // print('Not an active admin');
-  // }
-  List<int> numbers = [3, 9, 1, 6, 4, 2, 8, 5, 7];
-
-  int largest = numbers[8];
-
-  for (int i = 0; i < numbers.length; i++) {
-    if (numbers[i] > largest) {
-      largest = numbers[i];
-    }
-  }
-
-  print("Largest element: $largest");
+  // ignore: unused_element
+  printTable(8);
+  printTable(9);
+  printTable(5);
 }
 
-
+printTable(table) {
+  for (var i = 1; i <= 10; i++) {
+    print(i * 5);
+  }
+}
